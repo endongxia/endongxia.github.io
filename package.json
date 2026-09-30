@@ -1,0 +1,40 @@
+{
+  "name": "endongxia",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@10.18.2",
+  "license": "MIT",
+  "scripts": {
+    "predocs:dev": "node scripts/generate-home-data.cjs",
+    "predocs:build": "node scripts/generate-home-data.cjs",
+    "predocs:preview": "node scripts/generate-home-data.cjs",
+    "home-data": "node scripts/generate-home-data.cjs",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "vp-update": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.31",
+    "esbuild": "^0.28.2",
+    "gray-matter": "^4.0.3",
+    "http-server": "^14.1.1",
+    "typescript": "^6.0.3",
+    "vue": "^3.5.34",
+    "vuepress": "2.0.0-rc.31",
+    "vuepress-theme-plume": "1.0.0-rc.211"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher"
+    ]
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.0.0"
+  },
+  "dependencies": {
+    "swiper": "^14.3.0"
+  }
+}
