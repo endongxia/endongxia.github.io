@@ -183,6 +183,11 @@ function collectLatestPost() {
 }
 
 function main() {
+  // ============ 新增：自动递归创建存放json的文件夹 ============
+  const OUTPUT_DIR = path.dirname(OUTPUT_FILE);
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  // ==========================================================
+
   const notes = collectLatestNote();
   const posts = collectLatestPost();
   const payload = {
@@ -199,5 +204,6 @@ function main() {
   fs.writeFileSync(OUTPUT_FILE, `${JSON.stringify(payload, null, 2)}\n`);
   console.log(`Successfully saved homepage data to ${OUTPUT_FILE}`);
 }
+
 
 main();
