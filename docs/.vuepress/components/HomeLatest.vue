@@ -355,6 +355,15 @@
 @media (max-width: 719px) {
   .stat-chip {
     padding: 0.8rem;
+    /* 移动端取消 strong 的绝对定位 */
+    position: static;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .stat-chip strong {
+    position: static;
+    transform: none;
+    font-size: 1.4rem;
   }
   .latest-grid {
     grid-template-columns: minmax(0, 1fr);
@@ -364,6 +373,7 @@
     margin: 0.3rem 0 0;
   }
 }
+
 
 @media (max-width: 379px) {
     .bangumi-content {
