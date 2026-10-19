@@ -22,7 +22,7 @@ export default defineUserConfig({
   
 head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/jpg', href: 'images/peipei.png' }],
+    ['link', { rel: 'icon', type: 'png', href: 'https://blog-1329948899.cos.ap-guangzhou.myqcloud.com/peipei' }],
     ['link', { rel: 'preload', as: 'style', href: '/fonts/LXGWBrightGB-Regular/result.css' }],
     ['link', { rel: 'stylesheet', type:'text/css', href: '/fonts/LXGWBrightGB-Regular/result.css' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css', integrity: 'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X', crossorigin: 'anonymous' }],

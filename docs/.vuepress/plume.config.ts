@@ -18,7 +18,7 @@ import navbar from './navbar'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: 'images/peipei.png',
+  logo: 'https://blog-1329948899.cos.ap-guangzhou.myqcloud.com/peipei',
 
   social: [
     { icon: 'github', link: 'https://github.com/endongxia' },
@@ -35,9 +35,6 @@ export default defineThemeConfig({
     organization: '浙江师范大学',
   },
 
-  
-
   navbar,
   
-
 })
