@@ -5,7 +5,7 @@ tags:
   - markdown
 permalink: /markdown/pv2jer4s/
 ---
-*这是我查阅官方文档学习总结的，附：[markdown官方文档](https://markdown.com.cn/basic-syntax/)*
+*查阅官方文档边学习边实践，附：[markdown官方文档](https://markdown.com.cn/basic-syntax/)*
 
 ## 标题
 
@@ -210,14 +210,14 @@ It！
 使用尖括号可以很方便地把 URL 或 email 地址变成可点击的链接。
 
 ```
-<https://shinedawn.top/>
-<shinedawn.su@gmail.com>
+<https://endongxia.cn>
+<endong.cn@gmail.com>
 ```
 
 #### 预览：
 
-<https://ndon.top/>  
-<shinedawn.su@gmail.com>
+<https://endongxia.cn>  
+<endong.cn@gmail.com>
 
 
 
@@ -249,19 +249,20 @@ I love my school ***[浙江师范大学](https://www.zjnu.edu.cn/)***!
 
 #### 预览：
 
-![这是我的母校](https://www.zjnu.edu.cn/_upload/article/images/c1/6e/af7b994043ba90f9943ccb0abab2/b06d8dd7-7e28-4c7d-bbea-e836bb4879a7.jpg "浙江师范大学")
+![这是我的母校](https://www.zjnu.edu.cn/_upload/article/images/16/11/573aa6f04cdcbc9d4b74841da597/87a4e7be-de17-4b8a-b1ce-92280ee8ac12.jpg "浙江师范大学")
 
 ### 给图片加链接
 
 将图像的 Markdown 括在方括号中，然后将链接添加在圆括号中。
 
 ```
-[![初阳湖](https://www.zjnu.edu.cn/_upload/article/images/ba/80/a87c49be437aa154b07f8419664b/02ff728f-5bd8-46fc-a012-bde78a613509_s.jpg)](https://www.zjnu.edu.cn/6982/list.htm)
+[![初阳湖](https://www.zjnu.edu.cn/_upload/tpl/01/8e/398/template398/images/7.jpg)]
+(https://www.zjnu.edu.cn/6980/list.htm)
 ```
 
 #### 预览：
 
-[![初阳湖](https://www.zjnu.edu.cn/_upload/article/images/ba/80/a87c49be437aa154b07f8419664b/02ff728f-5bd8-46fc-a012-bde78a613509_s.jpg)](https://www.zjnu.edu.cn/6982/list.htm)
+[![初阳湖](https://www.zjnu.edu.cn/_upload/tpl/01/8e/398/template398/images/7.jpg)](https://www.zjnu.edu.cn/6980/list.htm)
 
 
 

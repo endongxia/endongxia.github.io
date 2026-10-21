@@ -81,7 +81,7 @@ permalink: /blog/nqoxr642/
 
 `git rebase main`	让功能分支跟上main分支的最新进展
 
-若发生冲突，手动处理冲突，`git add`，git rebase --continue
+若发生冲突，手动处理冲突，`git add`，`git rebase --continue`
 
 `git rebase --abort`	放弃rebase
 
